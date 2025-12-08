@@ -34,10 +34,10 @@ A classic Snake game implementation written in Python using the `turtle` graphic
 
 ## 🚀 Controls
 
-* **Up / W**: Move Up
-* **Down / S**: Move Down
-* **Left / A**: Move Left
-* **Right / D**: Move Right
+* **Up /: Move Up
+* **Down /: Move Down
+* **Left / : Move Left
+* **Right /: Move Right
 
 ## 🔮 Future Improvements
 
