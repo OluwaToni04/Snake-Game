@@ -37,14 +37,14 @@ while game_on:
 
     #dectect wall collusion
     if snake.head.xcor()> 300 or snake.head.xcor()< -300 or snake.head.ycor()>300 or snake.head.ycor()< -300 :
-        game_on = False
-        score.gameover()
+        score.reset()
+        snake.reset()
 
     #dectect tail collusion
     for segment in snake.segment[1:]:
         if snake.head.distance(segment)< 10:
-            game_on = False
-            score.gameover()
+           score.reset()
+           snake.reset()
 
 
 
